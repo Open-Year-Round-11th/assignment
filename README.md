@@ -10,7 +10,7 @@
 1. github repository 를 clone 받습니다.
 
 ```git
-$ git clone https://github.com/Open-Year-Round-2022/assignment.git
+$ git clone https://github.com/Open-Year-Round-2023/assignment.git
 ```
 
 2. 해당 폴더를 ide 로 열어주세요.
