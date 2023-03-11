@@ -15,13 +15,13 @@ $ git clone https://github.com/Open-Year-Round-11th/assignment.git
 
 2. 해당 폴더를 ide 로 열어주세요.
 3. 터미널에서 git 명령어를 통해 브랜치를 만들 수 있습니다.
-ex) git branch openyearround
+ex) git branch feature/openyearround
 ```git
-$ git branch 브랜치명(자신의 이름)
+$ git branch feature/자신의이름
 ```
 4. 만든 브랜치로 위치를 옮겨주세요.
 ```git
-$ git checkout 브랜치명(자신의 이름)
+$ git checkout feature/자신의이름
 ```
 
 이제 git add, commit, push 를 통해 코드를 업로드 하실 수 있습니다.
