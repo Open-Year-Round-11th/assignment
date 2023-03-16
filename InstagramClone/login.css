@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+}
+#article{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 673px;
+    margin-top: 32px;
+    padding-bottom: 32px;
+    position: relative;
+}
+#login_left{
+    width: 413px;
+    height: 100%;
+    top: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+#login_img{
+    display: inline-block;
+    width: 381px;
+    height: 582px;
+    background-image: url(./home-phones.png);
+    background-repeat: no-repeat;
+    background-position: -42px 0px;
+    position: absolute;
+    top: 0px;
+}
+
+#text_set{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    margin-top: 12px;
+    max-width: 350px;
+}
+#first_set{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 401px;
+    margin: 28px 0 10px 0;
+    padding: 10px 0;
+    border: 1px solid #CCCCCC;
+}
+#second_set{
+    width: 350px;
+    height: 63px;
+    vertical-align: middle;
+    margin: 0 0 10px;
+    border: 1px solid #CCCCCC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#third_set{
+    width: 350px;
+    height: 95px;
+    text-align: center;
+}
+#instagram1{
+    background-image: url(https://static.cdninstagram.com/rsrc.php/v3/yK/r/ATdtiLb2BQ9.png);
+    background-position: 0px 0px;
+    background-size: 176px 181px;
+    width: 175px;
+    height: 51px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-bottom: 44px;
+}
+#table1 > input{
+    width: 266px;
+    height: 36px;
+    padding: 0px;
+    border-radius: 3%;
+    background-color: #eeeeee;
+    border: 1px solid #999999;
+    margin-bottom: 6px;
+    padding-left: 5px;
+}
+#table2 > input{
+    width: 266px;
+    height: 36px;
+    padding: 0px;
+    border-radius: 3%;
+    background-color: #eeeeee;
+    border: 1px solid #999999;
+    margin-bottom: 12px;
+    padding-left: 5px;
+}
+#table3 > input{
+    width: 268px;
+    height: 33px;
+    border: none;
+    padding: 0px;
+    margin: 8px, 40px, 8px, 40px;
+    background-color: #77A7FF;
+    margin-bottom: 14px;
+    border-radius: 5%;
+    color: white;
+    font-size: 15px;
+}
+#table4_2{
+    display: flex;
+    justify-content: center;
+    color: #606770;
+    font-size: 13px;
+    margin-bottom: 24px;
+}
+#table5{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: #073763;
+    font-weight: 900;
+}
+#table6{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    margin-top: 27px;
+}
+#second_set > span{
+    font-size: 15px;
+    margin-left: 5px;
+}
+#second_set > span > a{
+    text-decoration: none;
+    color: #77A7FF;
+    font-weight: 600;
+}
+#download1{
+    width: 136px;
+    height: 40px;
+}
+#download2{
+    width: 136px;
+    height: 40px;
+}
+#ttt{
+    margin-bottom: 0px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+#third2_set{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#download2{
+    margin-right: 5px;
+}
+#footer{
+    font-size: 12.8px;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+#footer > span{
+    margin-left: 12px;
+}
+#footer2{
+    font-size: 12.8px;
+    display: table; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 20px;
+}
+#footer > span{
+    margin-left: 12px;
+}
+#footer2 > span{
+    margin-left: 25px;
+}
+#facebook_img{
+    height: 16px;
+    width: 16px;
+    background-image: url(./instagram_image.png);
+    background-size: 300px 300px;
+    background-position: -283px -216px;
+    margin-right: 6px;
+    margin-bottom: 3px;
+}
+#facebook_set{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#front_img{
+    width: 250px;
+    height: 538.8px;
+    background-image: url(./screenshot4-2x.png);
+    background-size: 250px 538.8px;
+    position: absolute;
+    right: 17px;
+    bottom: 17px;
+}

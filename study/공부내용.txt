@@ -1,0 +1,63 @@
+*1.19*
+
+자주 사용하는 레이아웃 종류
+Linearlayout - vertical, horizontal로 정렬 가능
+Relativelayout - 상대적으로 위치 지정 가능
+ㄴ 참고: https://jdroid.tistory.com/8(간단한 레이아웃 설명)
+
+
+match_parent - 부모뷰에 맞게 크기 지정
+wrap_content - 내용물에 맞게 크기 지정
+
+
+Res>drawable -앱에 사용할 이미지 폴더
+Res>values>color -앱에 사용할 색상 값 변수 형태로 저장
+Res>values>string -앱에 사용할 간단한 변수 저장
+Res>values>themes - 
+
+*xml*  
+Android:src -해당 객체에 원하는 이미지 할당
+ㄴex) android:src="@drawable/"
+android:layout_alignParentBottom="true" -부모뷰의 아래쪽으로 정렬
+android:orientation="vertical" -뷰안의 내용물들을 수직으로 정렬
+android:id= "@+id/signin_layout" -해당 객체 이름 설정
+android:layout_above = "@+id/signin_layout" - relative layout에서 위치설정
+
+
+button background 오류 -오류는 뜨지 않으나 이미지를 인식 못함
+강의 내용이 구버전이라서 특정 코드 인식을 못함 -androidX migration하여 오류 해결
+manifast에서 intent filter를 MainActivity가 아닌 내가 새로 만든 java 파일로 옮겼을 때 오류가 남 -일단 mainactivity에 내가 만든 xml파일을 연결시켜 돌아가는 것 확인 나중에 오류 확인 후 조치 예정  
+  
+---------------------------------------------------------------------
+*1.20*
+
+firebase에 현재 진행중인 프로젝트 연결
+
+원래 - tools - firebase에 들어가 안내대로 진행하면 됬으나 버전이 맞지 않기도 하고 전에 진행중인 프로젝트와 겹쳐셔 firebase에서 만든 프로젝트를 전부 삭제후 패키지명과 src1번호를 알아내서 수동으로 연결
+
+그리고 layout에서 선언한 id가 main java파일에서는 뜨지 않음 검색결과 코틀린에서는 호환이 안된다 하여 gradle - module:app에서 plugins에 id 'kotlin-android'와 id 'kotlin-android-extensions'를 선언해야 인식이 됨 이 방법 외세도 findviewbyid로 검색하는 방법도 있다 하였는데 나중에 알아볼 예정
+
+저번 intent filter문제로 인해 임시로 Loginactivity가 아닌 Mainactivity에 로그인, 회원가입 판단 함수와 로그인 실행 함수를 구현, firebase와 연결
+
+id 'kotlin-android-extensions'이 오류가 나는 경우 id 'kotlin-parcelize'로 변경
+ㄴ 빌드 오류나서 새로운 방법 찾는중
+
+레이아웃에서
+android:inputType="textPassword" -입력문자가 안보이도록 설정
+
+id 'kotlin-android-extensions'이 구버전 id 'kotlin-parcelize'이 신버전 이지만 이상하게 후자로 하면 id 인식이 안되서 구버전 사용
+
+계속 오류 뜨는 이유가 버전이 맞지 않았음 classpath 'com.google.gms:google-services:4.3.10' -> classpath 'com.google.gms:google-services:4.3.14'로 변경하니 잘됨
+
+파이어베이스 서버에 이메일, 비밀번호 등록시 업데이트 되는것 확인
+다음엔 깃이랑 연결하고 프로그래밍 예정 
+
+---------------------------------------------------------------------
+*1.21*
+깃과 연결하기
+ㄴ https://dev-cini.tistory.com/16 참고하여 깃과 연동 완료
+
+
+
+
+
