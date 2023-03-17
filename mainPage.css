@@ -1,0 +1,491 @@
+@import "reset.css";
+
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    /* position: sticky; */
+    width: 100vw;
+    height: 100vh;
+}
+
+.left-container{
+    display: flex;
+    flex-direction: column;
+    width: 244.67px;
+    /* height: 100vh; */
+    /* height: 948px; */
+    padding: 8px 12px 20px 12px;
+    border-right: 0.666667px solid rgb(219,219,219);
+}
+
+.logo{
+    width: 220px;
+    height: 73px;
+    margin: 0px 0px 19px;
+    padding: 25px 12px 16px;
+}
+
+.logo > a > h1{
+    background-image: url(https://static.cdninstagram.com/rsrc.php/v3/yx/r/WtxJZZ3-9ZP.png);
+    background-size: cover;
+    width: 103px;
+    height: 29px;
+    display: inline-block;
+}
+
+.logo span{
+    display: none;
+}
+
+.menu{
+    align-items: stretch;
+    flex-grow: 1;
+}
+
+.category{
+    display: flex;
+    flex-direction: row;
+    width: 220px;
+    height: 48px;
+    margin: 4px 0px;
+    padding: 12px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.category:hover{
+    background-color: rgba(68,73,80,0.15);
+    border-radius: 20px 20px 20px 20px;
+}
+
+.split_img{
+    background-image: url(./img/sprite_img.png);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    
+}
+
+.split_name{
+    font-size: 16px;
+    padding: 0px 0px 0px 16px;
+    display: inline-block;
+}
+
+.img_1{
+    background-position: -403px -1px;
+} 
+
+.img_2{
+    background-position: -404px -182px;
+}
+
+.img_3{
+    background-position: -345px -353px;
+}
+
+.img_4{
+    background-image: url(./img/reels_icon.png);
+    background-size: cover;
+
+}
+
+.img_5{
+    background-image: url(./img/message_icon.png);
+    background-size: cover;
+} 
+
+.img_6{
+    background-position: -162px -354px;
+}
+
+.img_7{
+    background-position: -298px -140px;
+}
+
+.img_8{
+    background-image: url(./img/user_icon.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.img_9{
+    background-position: -404px -78px;
+}
+
+.setting{
+    width: 220px;
+    height: 56px;
+}
+
+.right-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    width: 630px;
+    margin: 10px 64px 0px 0px;
+}
+
+.story{
+    display: flex; 
+    flex-direction: row; /*각 유저를 행 방향으로 배치*/
+    justify-content: space-between;
+    height: 117px;
+    margin: 16px 0px 0px;
+    padding: 16px 0px;
+}
+
+.story_user{
+    display: flex;
+    flex-direction: column; /*유저의 프로필과 아이디를 세로로 배치*/
+    cursor: pointer;
+}
+
+.story_circle{
+    display: flex;
+    justify-content: center;
+    width: 66px;
+    height: 66px;
+    background-image: url(./img/sprite_img.png);
+    background-position: 1px -220.5px;
+    background-repeat: no-repeat;
+}
+
+.profile{
+    background-size: cover;
+    align-self: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+}
+
+.story_id > span{
+    font-size: 12px;
+}
+
+.user{
+    background-image: url(./img/user_icon.jpg);
+}
+
+.user_1{
+    background-image: url(./img/user_mschf_icon.jpg);
+}
+
+.user_2{
+    background-image: url(./img/user_ph1_icon.jpg);
+}
+
+.user_3{
+    background-image: url(./img/user___hanfolk_icon.jpg);
+}
+
+.user_4{
+    background-image: url(./img/user_sogumm_icon.jpg);
+}
+
+.user_5{
+    background-image: url(./img/user_sooya_icon.jpg);
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+
+.feed{
+    display: flex;
+    flex-direction: column; /*각 유저들을 세로로 배치*/
+    width: 465.19px;
+}
+
+.user_feed{
+    display: flex;
+    flex-direction: column;
+    height: 752.14px;
+    margin: 0px 0px 12px;
+    padding: 0px 0px 20px;
+    border-bottom: 0.666667px solid rgb(219,219,219);;
+}
+
+.feed_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 465.19px;
+    height: 56px;
+}
+
+.feed_header_info{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    cursor: pointer;
+}
+
+.feed_header_id{
+    margin: 0px 0px 0px 10px;
+    align-self: center;
+}
+
+.feed_header_icon{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.feed_1{
+    background-image: url(./img/newjeans_icon.jpg);
+}
+
+.feed_2{
+    background-image: url(./img/tt_icon.jpg);
+}
+
+
+.btn{ /*div*/
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 40px;
+    height: 40px;
+    padding: 8px;  
+    cursor: pointer;
+}
+
+
+.btnMore{ /*버튼*/
+    align-self: center;
+    width: 24px;
+    height: 24px;
+    border: none;
+    background-color: transparent;
+    background-image: url(./img/sprite_img.png);
+    background-repeat: no-repeat;
+    background-position: -64px -380px;
+    cursor: pointer;
+}
+
+.feed_main{
+    background-size: cover;
+    width: 463.84px;
+    height: 580.13px;
+}
+
+.feed_1{
+    background-image: url(./img/newjeans_img.jpg);
+}
+
+.feed_2{
+    background-image: url(./img/tt_img.jpg);
+}
+
+.feed_footer{
+    width: 465.19px;
+    height: 94px;
+}
+
+.feed_icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 46px;
+    margin: 4px 0px 0px;
+    padding: 0px 0px 6px;
+}
+
+
+.btnMore{ /*버튼*/
+    align-self: center;
+    width: 24px;
+    height: 24px;
+    border: none;
+    background-color: transparent;
+    background-image: url(./img/sprite_img.png);
+    background-repeat: no-repeat;
+    background-position: -64px -381px;
+}
+.btnHeart{
+    align-self: center;
+    width: 24px;
+    height: 24px;
+    border: none;
+    background-color: transparent;
+    background-image: url(./img/sprite_img.png);
+    background-repeat: no-rep   eat;
+    background-position: -162px -352px;
+    cursor: pointer;
+}
+
+.btnHeart:hover, .btnComment:hover, .btnDm:hover, .btnStore:hover{
+    filter: invert(50%);
+}
+
+.btnComment{
+    align-self: center;
+    width: 24px;
+    height: 24px;
+    border: none;
+    background-color: transparent;
+    background-image: url(./img/sprite_img.png);
+    background-repeat: no-repeat;
+    background-position: -189px -352px;
+    cursor: pointer;
+}
+
+.btnDm{
+    align-self: center;
+    width: 24px;
+    height: 24px;
+    border: none;
+    background-color: transparent;
+    background-image: url(./img/message_icon.png);
+    background-size: cover;
+    background-position: 0px 2px;
+    cursor: pointer;
+}
+.btnStore{
+    align-self: center;
+    width: 24px;
+    height: 24px;
+    border: none;
+    background-color: transparent;
+    background-image: url(./img/sprite_img.png);
+    background-repeat: no-repeat;
+    background-position: -403px -50px;
+    cursor: pointer;
+}
+
+.feed_like, .feed_comment, .span_wrapper > span, .section_1 > span{
+    font-size: 14px;
+}
+
+.feed_like > span , .feed_comment > span, .span_wrapper > span, .section_1 > span{
+    font-weight: bold;
+}
+
+.feed_comment{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.feed_comment > h1, .section_1 > span{
+    margin-left: 5px;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    width: 319px;
+    margin: 0px 0px 30px;
+    padding: 30px 0px 0px;
+}
+
+.span_wrapper > span{
+    height: 18px;
+    color: #8e8e8e;
+}
+
+.span_wrapper{
+    height: 19px;
+    padding: 4px 0px;
+}
+.account, .user_recommended{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 16px 0px 10px;
+}
+
+.section_1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.section_2{
+    align-self: center;
+}
+.blue_word{
+    align-self: center;
+    width: 36px;
+    color: #0095F6;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.recommend{
+    display: flex;
+    flex-direction: column;
+    margin: 8px 0px;
+    
+}
+.user_recommended{
+    height: 50px;
+    margin: 0px;
+    padding: 8px 8px;
+}
+
+.footer-wrapper{
+    margin-top: 12px;
+    height: 38.67px;
+}
+
+.footer-wrapper > p{
+    color: #C7C7C7;
+    font-size: 12px;
+    height: 16px;
+}
+
+.modal{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    height: 100%;
+    width: 440px;
+    height: 472px;
+}
+
+.hidden{
+    display: none;
+}
+
+.btnModal{
+    text-align: center;
+    background-color: white;
+    width: 400px;
+    height: 48px;
+    padding: 4px 8px;
+}   
+
+.btnTop{
+    border-radius: 20px 20px 0px 0px;
+}
+
+.btnBottom{
+    border-radius: 0px 0px 20px 20px;
+}

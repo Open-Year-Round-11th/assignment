@@ -1,0 +1,179 @@
+@import "reset.css";
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 32px 0px 32px 0px;
+}
+
+.left-container {
+    width: 380.31px;
+    height: 581.15px;
+    background-image: url(./img/home-phones.png);
+    background-size: 468.32px 634.15px;
+    background-position: -46px 0;
+    align-self: center;
+    /* flex-basis: 380.32px; */
+    margin: 0px 32px 12px 0px;
+}
+
+.right-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 350px;
+    height: 681.33px;
+    margin: 12px 0px 0px;
+}
+
+.login-container{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 397.66px;
+    border: 0.666667px solid rgb(219,219,219);
+    margin: 0px 0px 10px;
+    padding: 10px 0px;
+}
+
+.account-container{
+    height: 62.33px;
+    border: 0.666667px solid rgb(219,219,219);
+    margin: 0px 0px 10px;
+    padding: 10px 0px;
+    font-size: 14px;
+}
+
+.account-wrapper{
+    margin: 15px;
+}
+
+.logo-wrapper{
+    align-self: center;
+    background-image: url(https://static.cdninstagram.com/rsrc.php/v3/yx/r/WtxJZZ3-9ZP.png);
+    width: 174px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.login-wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 264.99px;
+}
+
+.section_1{
+    height: 212.99px;
+    margin: 24px 0px 0px;
+    /* align-items: stretch; */
+}
+
+.section_2{
+    height: 16px;
+    margin: 12px 0px 0px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.input-wrapper > input{
+    width: 268.67px;
+    height: 37.33px;
+    border: 0.666667px solid rgb(219,219,219);
+    border-radius: 1px;
+    padding: 9px 0px 7px 8px;
+    background-color: #FAFAFA;
+    outline: none;
+    margin-bottom: 5px;
+    line-height: 18px;
+}
+
+.button-wrapper{
+    /* margin: 5px 0px 5px 0px; */
+    margin: 8px 40px;
+}
+
+.login-button{
+    width: 268.97px;
+    height: 32px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4DB5F9;
+    /* margin: 8px 40px; */
+    cursor: pointer;
+}
+
+.login-button > span{
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.or{
+    height: 32px;
+    margin: 0px 18px;
+}
+
+.or > span{
+    color: #8E8E8E; 
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.facebook{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.facebook_logo{ 
+    width: 16px;
+    height: 16px;
+    background-image: url(./img/sprite_img.png);
+    background-position: -335px -116px;
+    background-repeat: no-repeat;
+    margin: 0px 8px 0px 0px;
+    cursor: pointer;
+}
+
+.facebook_login{
+    font-size: 14px;
+    color: #385185;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.blue_word{
+    font-size: 14px;
+    color: #0095F6;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.app-container{
+    display: flex;
+    flex-direction: column;
+    height: 94.33px;
+    justify-content: center;
+}
+
+.app-wrapper{
+    height: 43.33px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.app-download > span{
+    width: 310px;
+    line-height: 18px;
+    font-size: 14px;
+}
