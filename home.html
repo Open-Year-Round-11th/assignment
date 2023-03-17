@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="js/main.js" defer></script>
+    <link rel="shortcut icon" href="img/Instagram_icon.png" type="image/x-icon">
+    <title>Instagram</title>
+</head>
+<body id="home">
+    <div id="more-modal" class="more-modal-overlay">
+        <div class="more-modal-window">
+            <div class="more-close-area">X</div>
+            <div class="content">
+                <ul>
+                    <li class="modal-list modal-list-red">
+                        <span>신고</span>
+                        <div class="modal-divder"></div>
+                    </li>
+                    <li class="modal-list modal-list-red">
+                        <span>팔로우 취소</span>
+                        <div class="modal-divder"></div>
+                    </li>
+                    <li class="modal-list">
+                        <span>게시물로 이동</span>
+                        <div class="modal-divder"></div>
+                    </li>
+                    <li class="modal-list">
+                        <span>공유 대상...</span>
+                        <div class="modal-divder"></div>
+                    </li>
+                    <li class="modal-list">
+                        <span>링크복사</span>
+                        <div class="modal-divder"></div>
+                    </li>
+                    <li class="modal-list">
+                        <span>퍼가기</span>
+                        <div class="modal-divder"></div>
+                    </li>
+                    <li class="modal-list">
+                        <span>취소</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="comment-modal" class="comment-modal-overlay">
+        <div class="comment-close-area">X</div>
+        <div class="comment-modal-window">
+            <div class="comment-left">
+                <img src="img/postImg2.jpg">
+            </div>
+            <div class="comment-right">
+            <div class="comment-header">
+                <div class="comment-header-avatar">
+                    <div class="comment-header__icon">
+                        <img src="img/Instagram_icon.png">
+                   </div>
+                   <span>Instagram</span>
+                </div>
+                <div class="comment-more">
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+            </div>
+            <div class="comment-divider"></div>
+
+            <div class="comment-content">
+                <div class="comment-content__icon">
+                    <img src="img/Instagram_icon.png">
+                </div>
+                <div class="comment-post__information">
+                    this is post inmformation<br/>
+                    this is post inmformation<br/>
+                    this is post inmformation<br/>
+                    this is post inmformation<br/>
+
+
+                </div>
+            </div>
+            <div class="comment-divider"></div>
+
+            <div class="comment-footer">
+                <div class="comment-footer-items">
+                    <div class="comment-footer-items-left">
+                        <i class="far fa-heart click-heart"></i>
+                        <i class="far fa-comment"></i>
+                        <i class="far fa-paper-plane"></i>
+                    </div>
+                    <div class="comment-footer-items-left">
+                        <i class="far fa-bookmark"></i>
+                    </div>
+                </div>
+                <div class="comment-subInfo">
+                    <div class="howManyLike">
+                        좋아요 192개
+                    </div>
+                    <div class="postDate">
+                        1일전
+                    </div>
+                </div>
+
+                <div class="comment-divider"></div>
+                <div class="comment-addComment">
+                    <i class="far fa-smile"></i>
+                    <input type="text" placeholder="댓글 달기..." class="comment-addComment__input">
+                    <div class="comment-post">게시</div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="main__header">
+        <a href="index.html">
+        <img class="main__header-icon" src="img/instagram-logo.png" alt="header-icon">
+        </a>
+        <input type="text" placeholder="검색" class="header-search">
+        <div class="header-items">
+            <i class="fas fa-home"></i>
+            <i class="far fa-paper-plane"></i>
+            <i class="far fa-plus-square"></i>
+            <i class="far fa-compass"></i>
+            <i class="far fa-heart"></i>
+            <i class="far fa-user-circle"></i>
+        </div>
+    </div>
+    <main id="main__contents">
+        <div class="main-left">
+            <div class="stories">
+                <div class="story">
+                    <img class="story__icon" src="img/Instagram_icon.png">
+                    <div class="story__name">
+                        sangu_1026
+                    </div>
+                </div>
+            </div>
+            <div class="posts">
+                <div class="post">
+                    <div class="post-header">
+                       <div class="post-header-avatar">
+                        <img src="img/Instagram_icon.png" class="post-header-avatar-icon">
+                        <div class="post-header-avatar-title">Instagram</div>
+                       </div>
+                        <i class="fas fa-ellipsis-h post-more"></i>
+                    </div>
+                    <img class="post-img" src="img/postImg2.jpg">
+                    <div class="post-footer">
+                        <div class="post-items">
+                            <div class="post-items__left">
+                                <i class="far fa-heart click-heart"></i>
+                                <i class="far fa-comment"></i>
+                                <i class="far fa-paper-plane"></i>
+                            </div>
+                            <div class="post-items__right">
+                                <i class="far fa-bookmark"></i>
+                            </div>
+                        </div>
+                        <span>좋아요 192개</span>
+                        <span>
+                            this is information about this post
+                        </span>
+                        <div class="addComent">
+                            <input type="text" placeholder="댓글 달기..." class="addComment__input">
+                            <i class="far fa-smile"></i>
+                        </div>
+                                      
+                    </div>
+                    <div class="post-divider">
+
+                    </div>
+
+                </div>
+                
+                <div class="post">
+                    <div class="post-header">
+                       <div class="post-header-avatar">
+                        <img src="img/Instagram_icon.png" class="post-header-avatar-icon">
+                        <div class="post-header-avatar-title">Instagram</div>
+                       </div>
+                        <i class="fas fa-ellipsis-h post-more"></i>
+                    </div>
+                    <img class="post-img" src="img/postImg2.jpg">
+                    <div class="post-footer">
+                        <div class="post-items">
+                            <div class="post-items__left">
+                                <i class="far fa-heart click-heart"></i>
+                                <i class="far fa-comment"></i>
+                                <i class="far fa-paper-plane"></i>
+                            </div>
+                            <div class="post-items__right">
+                                <i class="far fa-bookmark"></i>
+                            </div>
+                        </div>
+                        <span>좋아요 192개</span>
+                        <span>
+                            this is information about this post
+                        </span>
+                        <div class="addComent">
+                            <input type="text" placeholder="댓글 달기..." class="addComment__input">
+                            <i class="far fa-smile"></i>
+                        </div>
+                    </div>
+                    <div class="post-divider">
+
+                    </div>
+
+                </div>
+
+                <div class="post">
+                    <div class="post-header">
+                       <div class="post-header-avatar">
+                        <img src="img/Instagram_icon.png" class="post-header-avatar-icon">
+                        <div class="post-header-avatar-title">Instagram</div>
+                       </div>
+                        <i class="fas fa-ellipsis-h post-more"></i>
+                    </div>
+                    <img class="post-img" src="img/postImg2.jpg">
+                    <div class="post-footer">
+                        <div class="post-items">
+                            <div class="post-items__left">
+                                <i class="far fa-heart click-heart"></i>
+                                <i class="far fa-comment"></i>
+                                <i class="far fa-paper-plane"></i>
+                            </div>
+                            <div class="post-items__right">
+                                <i class="far fa-bookmark"></i>
+                            </div>
+                        </div>
+                        <span>좋아요 192개</span>
+                        <span>
+                            this is information about this post
+                        </span>
+                        <div class="addComent">
+                            <input type="text" placeholder="댓글 달기..." class="addComment__input">
+                            <i class="far fa-smile"></i>
+                        </div>
+                    </div>
+                    <div class="post-divider">
+
+                    </div>
+
+                </div>
+            </div>
+            
+        </div>
+        
+        
+        <div class="main-right">
+            <div class="account account-large">
+                <div class="account-left">
+                    <img src="img/Instagram_icon.png">
+                    <div class="account__information">
+                        <div class="account__name">Instagram</div>
+                        <div class="account__subtitle">
+                            Instagram official account
+                        </div>
+                    </div>
+                </div>
+                <div class="account-right">
+                    전환
+                </div>
+            </div>
+            <div class="freinds-recommend">
+                <div class="freinds-recommend__header">
+                    <span>회원님을 위한 추천</span>
+                    <span>모두보기</span>
+                </div>
+                <div class="friends">
+                    <div class="account account-small">
+                        <div class="account-left">
+                            <img src="img/Instagram_icon.png">
+                            <div class="account__information">
+                                <div class="account__name">Instagram</div>
+                                <div class="account__subtitle">
+                                    Instagram official account
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="account-right">
+                            팔로우
+                        </div>
+                    </div>
+                    <div class="account account-small">
+                        <div class="account-left">
+                            <img src="img/Instagram_icon.png">
+                            <div class="account__information">
+                                <div class="account__name">Instagram</div>
+                                <div class="account__subtitle">
+                                    Instagram official account
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="account-right">
+                            팔로우
+                        </div>
+                    </div>
+                    <div class="account account-small">
+                        <div class="account-left">
+                            <img src="img/Instagram_icon.png">
+                            <div class="account__information">
+                                <div class="account__name">Instagram</div>
+                                <div class="account__subtitle">
+                                    Instagram official account
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="account-right">
+                            팔로우
+                        </div>
+                    </div>
+                    <div class="account account-small">
+                        <div class="account-left">
+                            <img src="img/Instagram_icon.png">
+                            <div class="account__information">
+                                <div class="account__name">Instagram</div>
+                                <div class="account__subtitle">
+                                    Instagram official account
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="account-right">
+                            팔로우
+                        </div>
+                    </div>
+                    <div class="account account-small">
+                        <div class="account-left">
+                            <img src="img/Instagram_icon.png">
+                            <div class="account__information">
+                                <div class="account__name">Instagram</div>
+                                <div class="account__subtitle">
+                                    Instagram official account
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="account-right">
+                            팔로우
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-right__footer">
+                소개·도움말·홍보 센터·API·채용정보·<br/>
+                개인정보처리방침·약관·위치·인기계정·해시태그<br/>
+                ·언어<br/><br/>
+                2022 INSTAGRAM FROM META                
+            </div>
+        </div>
+    </main>
+
+    <script src="https://kit.fontawesome.com/6478f529f2.js"
+    crossorigin="anonymous">
+    </script>
+</body>
+</html>
