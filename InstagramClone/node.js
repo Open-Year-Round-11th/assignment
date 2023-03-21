@@ -1,15 +1,8 @@
 const express = require('express');
-var cors = require('cors');
 const app = express();
 const port = 3000;
 
-app.use(cors());
-
-app.use('/InstagramClone', express.static(__dirname + '/InstagramClone'));
-app.use('/css', express.static(__dirname + '/css'));
-app.use('/js', express.static(__dirname + '/js'));
-
-
+app.use(express.static(__dirname));
 
 app.get('/', (req, res) => {
     res.sendFile(__dirname + "/Login.html")

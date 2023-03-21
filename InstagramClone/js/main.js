@@ -45,26 +45,26 @@ function changeheart(){
         like_cheak = true;
         document.getElementById('btn1').style.backgroundPosition= "-80px -348px";
         document.getElementById('btn1').style.backgroundSize= "420px 420px";
-        document.getElementById('btn1').style.backgroundImage="url(./js/css/instagram_image.png)";
+        document.getElementById('btn1').style.backgroundImage="url(../css/instagram_image.png)";
     }
     else{
         like_cheak = false;
         document.getElementById('btn1').style.backgroundPosition= "-33px -27px";
         document.getElementById('btn1').style.backgroundSize= "280px 140px";
-        document.getElementById('btn1').style.backgroundImage="url(./js/css/image.png)";
+        document.getElementById('btn1').style.backgroundImage="url(../css/image.png)";
     }
 }
 function changeheartgray(){
     if(like_cheak == false){
         document.getElementById('btn1').style.backgroundPosition= "-33px -55px";
         document.getElementById('btn1').style.backgroundSize= "280px 140px";
-        document.getElementById('btn1').style.backgroundImage="url(./js/css/image.png)";
+        document.getElementById('btn1').style.backgroundImage="url(../css/image.png)";
     }
 }
 function changeheartgray2(){
     if(like_cheak == false){
         document.getElementById('btn1').style.backgroundPosition= "-33px -27px";
         document.getElementById('btn1').style.backgroundSize= "280px 140px";
-        document.getElementById('btn1').style.backgroundImage="url(./js/css/image.png)";
+        document.getElementById('btn1').style.backgroundImage="url(../css/image.png)";
     }
 }
