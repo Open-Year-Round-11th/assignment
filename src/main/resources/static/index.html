@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body onload="javascript:showImage();">
+<div class="section">
+    <div class="left_section">
+        <div class="image_box">
+            <img id="back" src="../img/home-phones.png" alt="phone_img">
+            <div class="front_img">
+                <img id="front" src="../img/screenshot1.png" alt="phone_img">
+            </div>
+        </div>
+    </div>
+
+    <div class="right_section">
+        <div class="form">
+            <header>
+                <img  class="insta_logo" src="/img/insta_textLogo.png" alt="logo">
+            </header>
+            <!--로그인 폼-->
+            <form name="login"  method="post">
+                <input class="user_id" type="text" placeholder="전화번호, 사용자 이름 또는 이메일">
+                <input class="user_pw" type="password" placeholder="비밀번호">
+            </form>
+
+            <button type="button" class="login_button" id="loginBtn" onclick="location.href='main'">로그인</button>
+
+
+            <div class="subline">
+                <div class="line"></div>
+                <div class="text">또는</div>
+                <div class="line"></div>
+            </div>
+            <div class="facebook_login">
+                <img class="facebook_logo" src="/img/facebook.png" alt="facebook_logo">
+                <div class="facebook_text">Facebook으로 로그인</div>
+            </div>
+
+            <div class="forget_pw">비밀번호를 잊으셨나요?</div>
+        </div>
+        <div class="account">
+            <div class="no_account">계정이 없으신가요?</div>
+            <div class="join">가입하기</div>
+        </div>
+        <div class="download">
+            <div class="download_txt">앱을 다운로드하세요</div>
+            <div class="download_img">
+                <img class="googlePlay" src="/img/googlePlay.png" alt="googlePlay_logo">
+                <img class="microsoft" src="/img/microsoft.png"alt="microsoft_logo">
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="bottom_section">
+    <div class="first">
+        <div class="info">Meta</div>
+        <div class="info">소개</div>
+        <div class="info">블로그</div>
+        <div class="info">채용 정보</div>
+        <div class="info">도움말</div>
+        <div class="info">API</div>
+        <div class="info">개인정보처리방침</div>
+        <div class="info">약관</div>
+        <div class="info">인기 계정</div>
+        <div class="info">위치</div>
+        <div class="info">Instagram Lite</div>
+        <div class="info">연락처 업로드 & 비사용자</div>
+        <div class="info">약관</div>
+        <div class="info">Meta Verified</div>
+    </div>
+    <div class="second">
+        <div class="info">한국어</div>
+        <div class="info">© 2023 Instagram from Meta</div>
+    </div>
+</div>
+
+
+
+<script language="JavaScript" type="text/javascript" src="/js/image_change.js"></script>
+<script language="JavaScript" type="text/javascript" src="/js/login.js"></script>
+</body>
+</html>
